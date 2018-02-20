@@ -182,6 +182,7 @@ on boot
     chown cameraserver cameraserver /dev/cpuset/camera-daemon
     chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
     chmod 0660 /dev/cpuset/camera-daemon/tasks
+    chown system system /sys/kernel/hbtp/display_pwr
 
     ####Regionalization config and prop files####
     chmod 0644 /persist/speccfg/spec
