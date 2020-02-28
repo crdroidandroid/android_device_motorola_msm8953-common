@@ -190,7 +190,7 @@ PRODUCT_PACKAGES += \
     init.hidl.sensor.rc \
     init.mmi.chipset.rc \
     init.mmi.overlay.rc \
-    init.mmi.usb.rc \
+    init.msm.usb.configfs.rc \
     init.mmi.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
