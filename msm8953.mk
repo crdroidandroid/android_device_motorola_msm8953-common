@@ -66,6 +66,10 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
+# BPF
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.kernel.ebpf.supported=true
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
