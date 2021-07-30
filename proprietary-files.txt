@@ -531,7 +531,6 @@ product/framework/QtiTelephonyServicelibrary.jar
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
 vendor/bin/ipacm-diag
-vendor/bin/netmgrd
 vendor/bin/port-bridge
 vendor/bin/adpl
 vendor/bin/qti
@@ -752,6 +751,9 @@ vendor/lib64/vendor.qti.imsrtpservice@2.1.so
 
 # MOTO RIL - from deen_sprout
 vendor/lib64/libsensorndkbridge.so
+
+# RIL - from daisy - QKQ1.191002.002 V11.0.21.0.QDLMIXM
+vendor/bin/netmgrd|8752fb8cb74bd402a13ff291b7d2074415350984
 
 # Sensors  - from deen_sprout
 vendor/bin/capsense_reset
