@@ -24,6 +24,9 @@ ro.debuggable=1
 # Bluetooth
 bluetooth.hfp.client=1
 
+# BPF
+ro.kernel.ebpf.supported=true
+
 # CNE
 persist.vendor.cne.feature=1
 
@@ -36,6 +39,9 @@ vidc.enc.dcvs.extra-buff-count=2
 
 # Color Mode
 vendor.display.enable_default_color_mode=1
+
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Display
 ro.sf.hwc_set_default_colormode=true
