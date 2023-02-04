@@ -204,6 +204,9 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
+# Kernel
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/keylayout/ft5x06_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ft5x06_ts.kl \
